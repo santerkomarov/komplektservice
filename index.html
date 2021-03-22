@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper-header">
+		<div class="header">
+			<div class="logo">
+				<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+			</div>
+			<div class="name">
+				<p>КомплектСервис</p>
+				<p>тел. 8 912-856-34-03,&#8195; 8(3412) 563-403</p>
+			</div>
+			<div class="schedule">
+				<p><span>пн-пт</span> 8:30-17:00
+				<p><span>сб-вс</span> ВЫХОДНОЙ</p>
+			</div>
+		</div>
+	</div>
+	<div class="header-mobail">
+		<img id="burger" src="img/burger.png" width="30" height="30" alt="burger">
+		<div class="header-mobile__middle">
+			<p>КомплектСервис</p>
+		</div>
+		<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+	</div>
+
+	<nav>
+		<div id="wrap-for-ul" class="wrap-for-ul">
+			<ul id="ul">
+				<li><button class="tablinks" onclick="openTab('news')" href="#main">НОВОСТИ</button></li>
+				<li><button class="tablinks" onclick="openTab('catalog')">КАТАЛОГ ТОВАРОВ</button></li>
+				<li><button class="tablinks" onclick="openTab('promo')">АКЦИИ</button></li>
+				<li><button class="tablinks" onclick="openTab('production')">ПРОИЗВОДСТВО</button></li>
+				<li><button class="tablinks" onclick="openTab('contacts')">КОНТАКТЫ</button></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="wrap-tabcontent">
+		<a name="main" id="banner-content"></a>
+		<div id="news" class="tabcontent">
+			<h3>НОВОСТИ</h3>
+			<div class="banner">
+				<img src="img/paint-banner.png" width="450" height="240" alt="Cumixan-productions">
+				<div class="banner__text">
+					<p>Хит продаж!</p>
+					<p>Pro Alkyd SP (Premium)</p>
+					<img src="img/cumixan-logo.png" width="179" height="44" alt="cumixan-logo">
+					<p>Мы являемся официальными дилерами продукции марки CUMIXAN по Удмуртской Республике</p>
+				</div>
+			</div>
+
+			<div class="banner__news">
+				<p> Выходные дни в 2021 году по случаю Праздника Весны и Труда назначены на 1, 2 и 3 мая. | 22.03.2021</p>
+		   	<p> Выходными в связи с Днем Победы в 2021 году назначены 8, 9 и 10 мая. | 22.03.2021</p>
+		   	<p> Обновление сезонного ассортимента! | 8.03.2021 </p>
+		   	<p> Доставка товаров до дома! | 1.03.2021 </p>
+		   	<p> Заявки на доставку товаров оформлять предварительно | 1.03.2021</p>
+			</div> 
+
+			<div class="bottom">
+				<div class="bottom__left">
+					<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+					<p>КомплектСервис</p>
+					<p>2021</p>
+				</div>
+				<div class="bottom__center">
+					<p>тел. 8 912-856-34-03,&#8195; 8(3412) 563-403</p>
+					<p>komplektservice2017@gmail.com</p>	
+					<p>г.Ижевск ул.Воткинское шоссе, 170Б</p>
+				</div>
+				<div class="bottom__right">
+					<p>пн-пт 8:30-17:00
+						<br>сб-вс ВЫХОДНОЙ</p>	
+					<span>Web by BERGAN</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="catalog" class="tabcontent">
+			<h3>КАТАЛОГ ТОВАРОВ</h3>
+			<div class="catalog">
+				<div class="catalog__item">
+					<h4>ЛАКОКРАСОЧНЫЕ ТОВАРЫ</h4>
+					<div class="category-text1" id="category-text1">
+						<ul>
+							<li> краски</li>
+							<li> лаки</li>
+							<li> грунтовки</li>
+							<li> эмали</li>
+							<li> разбавители</li>
+							<li> антикоррозионные грунт-краски</li>
+							<li> защитные грунт-эмали</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img1" src="img/paint.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton1" class="catalogButton" onclick="catalogDetails(1)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>ХОЗТОВАРЫ</h4>
+					<div class="category-text2" id="category-text2">
+						<ul>
+							<li> уборочный инвентарь</li>
+							<li> ножницы</li>
+							<li> верстаки</li>
+							<li> ящики инструментальные</li>
+							<li> лестницы-стремянки</li>
+							<li> замки</li>
+							<li> ёмкости</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img2" src="img/hoztovary.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton2" class="catalogButton" onclick="catalogDetails(2)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>СТРОПЫ</h4>
+					<div class="category-text3" id="category-text3">
+						<ul>
+							<li> стропы текстильные</li>
+							<li> ремни стяжные</li>
+							<li> стропы цепные</li>
+							<li> скобы такелажные</li>
+							<li> звенья соеденительные</li>
+							<li> звенья овальные</li>
+							<li> стропы цепные</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img3" src="img/rope.png" width="250" height="220" alt="лаки и краски">
+					<p><button  id="catalogButton3" class="catalogButton" onclick="catalogDetails(3)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>ИЗМЕРИТЕЛЬНЫЙ ИНСТРУМЕНТ</h4>
+					<div class="category-text4" id="category-text4">
+						<ul>
+							<li> лазерный инструмент</li>
+							<li> видеоскопы</li>
+							<li> рулетки</li>
+							<li> линейки</li>
+							<li> штангенциркули</li>
+							<li> микрометры</li>
+							<li> уровни</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img4" src="img/meseare.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton4" class="catalogButton" onclick="catalogDetails(4)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>МАЛЯРНО-ШТУКАТУРНЫЙ ИНСТРУМЕНТ</h4>
+					<div class="category-text5" id="category-text5">
+						<ul>
+							<li> кисти</li>
+							<li> валики и ролики</li>
+							<li> грунтовки</li>
+							<li> отвесы</li>
+							<li> правила штукатурные</li>
+							<li> шпатели</li>
+							<li> скрепки</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img5" src="img/malyar.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton5" class="catalogButton" onclick="catalogDetails(5)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>ПЕНА, КЛЕЙ, ГЕРМЕТИК</h4>
+					<div class="category-text6" id="category-text6">
+						<ul>
+							<li> монтажные пены</li>
+							<li> герметики</li>
+							<li> жидкие гвозди</li>
+							<li> пистолеты для пен</li>
+							<li> пистолеты термоклеящие</li>
+							<li> клей строительный</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img6" src="img/pena.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton6" class="catalogButton" onclick="catalogDetails(6)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>РЕЗКА и ШЛИФОВАНИЕ</h4>
+					<div class="category-text7" id="category-text7">
+						<ul>
+							<li> круги отрезные</li>
+							<li> круги абразивные</li>
+							<li> диски алмазные</li>
+							<li> диски пильные</li>
+							<li> щетки-крацовки</li>
+							<li> полировальные насадки</li>
+							<li> полотна электролобзика</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img7" src="img/rezka.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton7" class="catalogButton" onclick="catalogDetails(7)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>СТОЛЯРНО-СЛЕСАРНЫЙ ИНСТРУМЕНТ</h4>
+					<div class="category-text8" id="category-text8">
+						<ul>
+							<li> ножовки по дереву</li>
+							<li> стусла</li>
+							<li> стамески</li>
+							<li> рубанки</li>
+							<li> молотки слесарные</li>
+							<li> топоры</li>
+							<li> труборезы</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img8" src="img/stolyar.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton8" class="catalogButton" onclick="catalogDetails(8)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>ЗАКЛЁПОЧНИКИ, ПИСТОЛЕТЫ для СКОБ</h4>
+					<div class="category-text9" id="category-text9">
+						<ul>
+							<li> заклёпочники</li>
+							<li> заклёпки</li>
+							<li> заклёпочники прошивные</li>
+							<li> скобозабивные пистолеты</li>
+							<li> скобы для пистолетов</li>
+							<li> скобы, степлеры RAPID</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img9" src="img/zaklepka.png" width="250" height="220" alt="лаки и краски">
+					<p><button  id="catalogButton9" class="catalogButton" onclick="catalogDetails(9)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>КРЕПЁЖ</h4>
+					<div class="category-text10" id="category-text10">
+						<ul>
+							<li> саморезы</li>
+							<li> шурупы</li>
+							<li> дюпельный крепёж</li>
+							<li> анкерный крепёж</li>
+							<li> гвозди</li>
+							<li> заклёпки</li>
+							<li> хомуты</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img10" src="img/samorezz.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton10" class="catalogButton" onclick="catalogDetails(10)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>СПЕЦОДЕЖДА</h4>
+					<div class="category-text11" id="category-text11">
+						<ul>
+							<li> летняя спецодежда</li>
+							<li> зимняя спецодежда</li>
+							<li> головные уборы</li>
+							<li> средства защиты</li>
+							<li> защита сварщика</li>
+							<li> спецобувь</li>
+							<li> рабочие перчатки</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img11" src="img/clothes.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton11" class="catalogButton" onclick="catalogDetails(11)">подробнее</button></p>
+				</div>
+
+				<div class="catalog__item">
+					<h4>СКОТЧ, ПЛЁНКИ, СЕТКИ</h4>
+					<div class="category-text12" id="category-text12">
+						<ul>
+							<li> скотч</li>
+							<li> ленты упаковочные</li>
+							<li> ленты малярные</li>
+							<li> изоленты</li>
+							<li> плёнки, тенты</li>
+							<li> армирующие материалы</li>
+							<li> пистолеты для лент</li>
+							<li><span> и многое другое...</span></li>
+						</ul>
+					</div>
+					<img id="img12" src="img/scothh.png" width="250" height="220" alt="лаки и краски">
+					<p><button id="catalogButton12" class="catalogButton" onclick="catalogDetails(12)">подробнее</button></p>
+				</div>
+			</div> <!-- end of CATALOG -->
+
+			<div class="bottom">
+				<div class="bottom__left">
+					<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+					<p>КомплектСервис</p>
+					<p>2021</p>
+				</div>
+				<div class="bottom__center">
+					<p>тел. 8 912-856-34-03,&#8195;        8(3412) 563-403</p>
+					<p>komplektservice2017@gmail.com</p>	
+					<p>г.Ижевск ул.Воткинское шоссе, 170Б</p>
+				</div>
+				<div class="bottom__right">
+					<p>пн-пт 8:30-17:00
+						<br>сб-вс ВЫХОДНОЙ</p>
+					<span>Web by BERGAN</span>
+				</div>
+			</div>
+		</div> <!-- end of TABCONTENT -->
+
+		<div id="promo" class="tabcontent">
+		  	<h3>АКЦИИ</h3>
+		  	<img id="promo-img" src="img/balloons.png" width="100" height="100" alt="sale"> 
+		  	<p>Акция! Распродажа зимнего ассортимента! Скидка 25%.</p>
+		  	<p>Акция продлится до 1 апреля. Количество товара ограничено.</p>
+		  	<img id="promo-img__big" src="img/sale.jpg" width="844" height="480" alt="sale">
+		  		<p>Акция! Распродажа зимнего ассортимента! Скидка 25%.</p>
+		  	<p>Акция продлится до 1 апреля. Количество товара ограничено.</p>
+		  		<p>Акция! Распродажа зимнего ассортимента! Скидка 25%.</p>
+		  	<p>Акция продлится до 1 апреля. Количество товара ограничено.</p>
+		  		<p>Акция! Распродажа зимнего ассортимента! Скидка 25%.</p>
+		  	<p>Акция продлится до 1 апреля. Количество товара ограничено.</p>
+		  		<p>Акция! Распродажа зимнего ассортимента! Скидка 25%.</p>
+		  	<p>Акция продлится до 1 апреля. Количество товара ограничено.</p>
+
+		  	<div class="bottom">
+				<div class="bottom__left">
+					<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+					<p>КомплектСервис</p>
+					<p>2021</p>
+				</div>
+				<div class="bottom__center">
+					<p>тел. 8 912-856-34-03,&#8195;  8(3412) 563-403</p>
+					<p>komplektservice2017@gmail.com</p>	
+					<p>г.Ижевск ул.Воткинское шоссе, 170Б</p>
+				</div>
+				<div class="bottom__right">
+					<p>пн-пт 8:30-17:00
+						<br>сб-вс ВЫХОДНОЙ</p>	
+					<span>Web by BERGAN</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="production" class="tabcontent">
+			<h3>ПРОИЗВОДСТВО</h3>
+			<p>ООО "КомплектСервис" и ООО "Раута" являются группой компаний, занимающаяся комплексной поставкой материалов и имеющая собственное прозводство. </p>
+			<p>Производственная компания "Раута"" специализируется на разработке оборудования по техническому заданию заказчика.</p>
+			<p>Наличие своего конструкторского бюро, состоящего из компетентных специалистов и профессионалов, позволяет разрабатывать устройства любой сложности.</p>
+			<p>Широкий спектр инструментов и оборудования служит гарантом высокого качества и сжатых сроков изготовления.</p>
+				 
+			<div class="production-banner">
+				<p>ООО “Раута” разрабатывает  различное оборудования по чертежам заказчика:</p>
+				<ul>
+					<li> металлоконструкции</li>
+					<li> резервуары (от 1 до 200 м3)</li>
+					<li> электротехническое оборудование до 1000В</li>
+					<li> мобильные майнинговые фермы...</li>
+				</ul>
+				<div class="production-banner__button">
+					<a href="www.rauta18.ru" target="_blank">ПОДРОБНЕЕ</a>
+				</div>	
+			</div>
+			  
+			<div class="bottom">
+				<div class="bottom__left">
+					<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+					<p>КомплектСервис</p>
+					<p>2021</p>
+				</div>
+				<div class="bottom__center">
+					<p>тел. 8 912-856-34-03,&#8195; 8(3412) 563-403</p>
+					<p>komplektservice2017@gmail.com</p>	
+					<p>г.Ижевск ул.Воткинское шоссе, 170Б</p>
+				</div>
+				<div class="bottom__right">
+					<p>пн-пт 8:30-17:00
+						<br>сб-вс ВЫХОДНОЙ</p>	
+					<span>Web by BERGAN</span>
+				</div>
+			</div>
+		</div> <!-- end of WRAP-CONTENT -->
+
+		<!-- ===== contacts ============== -->
+
+		<div id="contacts" class="tabcontent">
+			<h3>КОНТАКТЫ</h3>
+			<div class="contacts-banner1">
+				<div class="contacts-banner__text">
+					
+					<p>Заместитель директора: Муллаянова Наталья Геннадьевна <br>тел.8-912-451-02-72 <i class="fab fa-telegram">&#8195;</i><i class="fab fa-whatsapp">&#8195;</i><i class="fab fa-viber"></i> 
+						<br>metizks@gmail.com</p>
+
+					<p>Старший менеджер: Михеев Иван Николаевич <br>тел.8-950-819-53-54 <i class="fab fa-telegram">&#8195;</i><i class="fab fa-whatsapp">&#8195;</i><i class="fab fa-viber"></i><br>mih.ks@gmail.com</p>
+
+					<p>Менеджер: Беседин Александр Александрович <br>тел.8-950-150-03-12 <i class="fab fa-telegram">&#8195;</i><i class="fab fa-whatsapp">&#8195;</i><i class="fab fa-viber"></i>  <br>aleksandr18ks@gmail.com</p>
+
+					<p>Менеджер: Бердников Сергей Владимирович <br>тел.8-912-457-29-52 <i class="fab fa-telegram">&#8195;</i><i class="fab fa-whatsapp">&#8195;</i><i class="fab fa-viber"></i><br>komplektservice2017@gmail.com </p>
+					<p></p>
+					<p>Мы располагаемся по адресу:
+					<br>г.Ижевск, ул.Воткинское шоссе, 170Б</p>
+				</div>
+			</div>
+
+			<div class="contacts-banner2">
+				<div class="contacts-banner2__left">
+					<img src="img/email-icon.png" width="80" height="80" alt="email">
+					<p>У Вас есть вопросы или предложения?</p>
+					<p>Отправьте нам сообщение и мы </p>
+					<p>свяжемся с Вами в ближайшее время.</p>
+				</div>
+				
+				<!-- ======== modal ========== -->
+
+				<div id="myModal" class="modal">
+				  	<div class="modal-content">
+				      <span class="close">&times;</span>
+				    	<div id="yes" class="modal-body__yes">
+					   	<p><img src="img/smile.png" alt=""></p>
+					      <p>СООБЩЕНИЕ ОТПРАВЛЕНО</p>
+					      <p>следующее сообщение можно будет отправить через 1 минуту</p>
+				    	</div>
+				   	<div id="no" class="modal-body__no">
+					      <p>СООБЩЕНИЕ НЕ ОТПРАВЛЕНО</p>
+					      <p>попробуйте позже</p>
+					      <p><img src="img/sad.png" alt=""></p>
+				   	</div>
+				 	</div>
+				</div>
+
+				<!-- ===== end modal ================= --> 	
+
+				<div class="contacts-banner2__form">
+					<div class="form-wrap" id="form-wrap">
+		            <form action="#" id="form" class="form"> 
+		            <input id="customerName" placeholder="Имя *" name="customerName" required="" type="text" />
+		            <label for="customerPhone"> Телефон * ( ! формат записи: 8 999-99-99-999)</label>
+		            <input id="customerPhone" placeholder="Телефон *" pattern="[0-9]{1} [0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" name="customerPhone" type="tel" />
+		            <textarea id="customerNote" placeholder="Сообщение *" name="customerNote" required="" rows="4"></textarea>
+		            <button id="customerOrder" type="submit">ОТПРАВИТЬ</button>
+		            </form>
+		        	</div>	
+				</div>	
+			</div>
+			  
+			<div class="bottom">
+				<div class="bottom__left">
+					<img src="img/ks-logo-small.png" width="93" height="60" alt="logo">
+					<p>КомплектСервис</p>
+					<p>2021</p>
+				</div>
+				<div class="bottom__center">
+					<p>тел. 8 912-856-34-03,&#8195;        8(3412) 563-403</p>
+					<p>komplektservice2017@gmail.com</p>	
+					<p>г.Ижевск ул.Воткинское шоссе, 170Б</p>
+				</div>
+				<div class="bottom__right">
+					<p>пн-пт 8:30-17:00
+						<br>сб-вс ВЫХОДНОЙ</p>
+					<span>Web by BERGAN</span>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of WRAP-CONTENT -->
+	
+<script src="js/tabcontent-catalog.js"></script>
+<script src="js/form.js"></script>
+
+</body>
+</html> 
