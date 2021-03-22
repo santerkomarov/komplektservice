@@ -251,7 +251,7 @@ nav .wrap-for-ul ul {
             justify-content: space-between;
     height: 600px;
     width: 100%;
-    background: url("../img/background-mobail.jpg");
+    background: url("img/background-mobail.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -662,7 +662,7 @@ nav .wrap-for-ul ul li button {
           align-items: center;
   min-height: 490px;
   width: auto;
-  background: url("../img/rauta-background_900-490.jpg");
+  background: url("img/rauta-background_900-490.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto auto;
@@ -721,7 +721,7 @@ nav .wrap-for-ul ul li button {
           align-items: center;
   min-height: 450px;
   width: auto;
-  background: url("../img/location-horizontal.jpg");
+  background: url("img/location-horizontal.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto auto;
@@ -737,7 +737,7 @@ nav .wrap-for-ul ul li button {
         -ms-flex-align: end;
             align-items: flex-end;
     min-height: 750px;
-    background: url("../img/location-vertical.jpg");
+    background: url("img/location-vertical.jpg");
     background-position: center;
     background-size: auto auto;
   }
@@ -787,7 +787,7 @@ nav .wrap-for-ul ul li button {
           align-items: flex-start;
   min-height: 490px;
   width: auto;
-  background: url("../img/email-ground.jpg");
+  background: url("img/email-ground.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto auto;
@@ -863,7 +863,7 @@ nav .wrap-for-ul ul li button {
   right: 0;
   width: 350px;
   height: 390px;
-  background: rgba(0, 96, 142, 0.2) url("../img/mail-send.gif") center/80px no-repeat;
+  background: rgba(0, 96, 142, 0.2) url("img/mail-send.gif") center/80px no-repeat;
   opacity: 0;
   visibility: hidden;
 }
