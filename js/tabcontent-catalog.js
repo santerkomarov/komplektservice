@@ -52,7 +52,7 @@ function catalogDetails(val) {
 	} else {
 		document.getElementById(`img${val}`).style.visibility = "hidden";
 		document.getElementById(`category-text${val}`).style.visibility = "visible";
-		document.getElementById(`category-text${val}`).style.width = "210px";
+		document.getElementById(`category-text${val}`).style.width = "208px";
 		document.getElementById(`category-text${val}`).style.opacity = "1";
 		document.getElementById(`catalogButton${val}`).innerHTML = "скрыть";
 	}
