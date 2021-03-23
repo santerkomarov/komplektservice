@@ -126,6 +126,7 @@ body {
 .header .name h1 {
   text-align: center;
   font-weight: 700;
+  font-size: 28px;
 }
 .header .name p {
   padding: 0 0 10px 0;
