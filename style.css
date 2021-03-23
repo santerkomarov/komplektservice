@@ -319,7 +319,7 @@ nav .wrap-for-ul ul li button {
   font-size: 20px;
   font-weight: 700;
 }
-.tabcontent h3:before {
+.tabcontent h2:before {
   position: absolute;
   top: 10px;
   left: 0;
