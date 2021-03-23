@@ -123,13 +123,15 @@ body {
 .header .logo p {
   padding: 5px 0;
 }
-.header .name h1 p {
+.header .name h1 {
   text-align: center;
   font-weight: 700;
 }
 .header .name p {
   padding: 0 0 10px 0;
   font-size: 28px;
+  text-align: center;
+  font-weight: 700;
 }
 .header .name p:last-child {
   font-weight: 400;
