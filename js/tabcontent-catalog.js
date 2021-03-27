@@ -1,7 +1,7 @@
  // ========== tabcontent hidden/showen =============
 function openTab(tabName) {
  	// return to start of tabcontent
-   window.location='#main'; 
+   window.location='#banner-content'; 
     
    var i, tabcontent;
    // heigth of navigation bar
